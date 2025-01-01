@@ -163,17 +163,23 @@ body {
 }
 
 @media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+
   .container {
     width: 90%;
+    min-width: 200px;
     padding: 20px;
   }
 
   .new-task-container {
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
   }
 
   .new-task-button {
+    margin-left: 0;
     width: 100%;
   }
 }
